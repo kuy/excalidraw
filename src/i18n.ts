@@ -36,6 +36,11 @@ export const languages = [
     data: require("./locales/he-IL.json"),
     rtl: true,
   },
+  {
+    lng: "ja-JP",
+    label: "日本語",
+    data: require("./locales/ja-JP.json"),
+  },
 ];
 
 let currentLanguage = languages[0];
